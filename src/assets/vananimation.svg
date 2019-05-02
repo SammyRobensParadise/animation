@@ -1,51 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
     <defs>
         <style>
-            .cls-1{isolation:isolate;}.cls-2{fill:#a29fff;}.cls-2,.cls-7{stroke:#666;stroke-miterlimit:10;}.cls-3{fill:#fff;}.cls-4{opacity:0.96;mix-blend-mode:screen;}.cls-5{fill:#f0cc00;}.cls-6,.cls-7{fill:#b3b3b3;}.cls-7{opacity:0.8;}.cls-8{fill:#975746;}.cls-9{fill:#398378;}.cls-10{fill:#393f92;}.cls-11{fill:none;stroke:#2e5992;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}
-            #sun{
-            transform-origin: 1051px 900px;
-            animation: sunrotate 16s linear 0s infinite running;
+            .cls-1{isolation:isolate;}.cls-2{fill:#a29fff;}.cls-2,.cls-7{stroke:#666;stroke-miterlimit:10;}.cls-3{fill:#fff;}.cls-4{opacity:0.96;mix-blend-mode:screen;}.cls-5{fill:#f0cc00;}.cls-6,.cls-7{fill:#b3b3b3;}.cls-7{opacity:0.8;}.cls-8{fill:#975746;}.cls-9{fill:#398378;}.cls-10{fill:#393f92;}.cls-11{fill:none;stroke:#2e5992;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;} #sun{ transform-origin: 1051px 900px; animation: sunrotate 16s linear 0s infinite running; } @keyframes sunrotate { from {transform: rotate(0deg);} to {transform: rotate(360deg);} } #moon{ transform-origin: 1051px 900px; transform: rotate(180deg); animation: moonrotate 16s linear 0s infinite running; } @keyframes moonrotate { from {transform: rotate(-180deg);} to {transform: rotate(180deg);} } #waves{ animation: wavemove 4s linear 1s infinite running; } @keyframes wavemove { from {} to {transform: translate(100px,-10px); opacity: 0.4; } } .cls-2{ animation: skychangecolor 16s linear 1s infinite running; } @keyframes skychangecolor{ 0%{fill: #a29fff;} 15%{fill:#ff6666;} 50%{fill: #0d0d0d;} 85%{fill:#ff6666;} 100%{fill: #a29fff;} } #stars{ opacity: 0; animation: starshow 16s linear 1s infinite running; } @keyframes starshow{ 0%{opacity: 0;} 25%{opacity:0;} 50%{opacity:1;} 75%{opacity:0;} 100%{opacity: 0;} } .cls-1{ animation: citychange 16s linear 1s infinite running; fill: #808080; } @keyframes citychange{ 0%{fill: #808080;} 50%{fill: #0d0d0d;} 100%{fill: #a6a6a6;} }
+            .cls-8{
+            animation: rightmountain 16s linear 1s infinite running;
             }
-            @keyframes sunrotate {
-            from {transform: rotate(0deg);}
-            to {transform: rotate(360deg);}
+            @keyframes rightmountain{
+            0%{fill: #975746;}
+            50%{fill: #4d0026;}
+            100%{fill: #975746;}
             }
-            #moon{
-            transform-origin: 1051px 900px;
-            transform: rotate(180deg);
-            animation: moonrotate 16s linear 0s infinite running;
+            .cls-9{
+            animation: leftmountain 16s linear 1s infinite running;
             }
-            @keyframes moonrotate {
-            from {transform: rotate(-180deg);}
-            to {transform: rotate(180deg);}
+            @keyframes leftmountain{
+            0%{fill: #398378;}
+            50%{fill: #003300;}
+            100%{fill: #398378;}
             }
-            #waves{
-            animation: wavemove 4s linear 1s infinite running;
+            .cls-10{
+            animation: mainocean 16s linear 1s infinite running;
             }
-            @keyframes wavemove {
-            from {}
-            to {transform: translate(100px,-10px);
-            opacity: 0.4;
-            }
-            }
-            .cls-2{
-            animation: skychangecolor 16s linear 1s infinite running;
-            }
-            @keyframes skychangecolor{
-            0%{fill: #a29fff;}
-            15%{fill:#ff6666;}
-            50%{fill: #0d0d0d;}
-            85%{fill:#ff6666;}
-            100%{fill: #a29fff;}
-            }
-            #stars{
-            opacity: 0;
-            animation: starshow 16s linear 1s infinite running;
-            }
-            @keyframes starshow{
-            0%{opacity: 0;}
-            50%{opacity:1;}
-            100%{opacity: 0;}
+            @keyframes mainocean{
+            0%{fill: #393f92;}
+            50%{fill:  #000066;}
+            100%{fill: #393f92;}
             }
         </style>
     </defs>
