@@ -47,13 +47,14 @@ body {
     margin-right: auto;
     align-content: center;
 }
-#idp-animation{
-    background-image: url("../assets/idp.svg");
+#van-animation{
+    background-image: url("../assets/vananimation.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 60rem;
     width: auto;
     margin-top: -10rem;
+    background-position: center;
 }
 .nav-link:hover {
     color: #32228a;
