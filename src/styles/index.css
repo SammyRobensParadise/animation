@@ -1,0 +1,96 @@
+/*CSS CREATED BY SAMMY ROBENS-PARADISE
+    CURRENT AS OF: 2018-06-29
+*/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    color: #333 !important;
+}
+
+.landing-image {
+    height: 30rem;
+    background-size: cover;
+    width: auto;
+    background-repeat: no-repeat;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    z-index: 22;
+
+}
+
+.landing-text {
+    position: absolute;
+    top: 5rem;
+    background: -webkit-linear-gradient(#333, rgb(192, 190, 190));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing-text-sub {
+    position: absolute;
+    top: 10rem;
+    background: -webkit-linear-gradient(rgb(192, 190, 190), rgb(212, 210, 210));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.animation{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+#idp-animation{
+    background-image: url("../assets/idp.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: auto;
+    margin-top: -10rem;
+}
+.nav-link:hover {
+    color: #32228a;
+    cursor: pointer;
+}
+
+.navbar.navbar-default {
+    background-color: #ffffff;
+    opacity: 0.7;
+    box-shadow: 0px 0.3px #ffff;
+}
+
+.navbar-toggler {
+    background-color: grey !important;
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.ul {
+    list-style-type: disc;
+}
+
+
+@media screen and (max-width: 870px) {
+    .landing-text-sub {
+        top: 18rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .landing-text-sub {
+        display: none;
+    }
+}
